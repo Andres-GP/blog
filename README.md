@@ -1,11 +1,11 @@
-# NodeBlog
+# Blog
 
 A simple **Blog application** built with **Node.js**, **Express**, and **MongoDB**.  
 This project demonstrates user authentication, CRUD operations for posts, and a clean responsive UI.
 
 ---
 
-**Live demo:** [https://blog-3rab.onrender.com/](https://blog-3rab.onrender.com/)
+**Live demo:** [Demo](https://blog-3rab.onrender.com/)
 
 ---
 
