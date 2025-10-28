@@ -1,38 +1,39 @@
-# Blog
+# ✍️ Blog
 
-A simple **Blog application** built with **Node.js**, **Express**, and **MongoDB**.  
-This project demonstrates user authentication, CRUD operations for posts, and a clean responsive UI.
-
----
-
-**Live demo:** [Demo](https://blog-3rab.onrender.com/)
+A simple and elegant **Blog App** built with **Node.js**, **Express**, and **MongoDB**.  
+It includes user authentication, CRUD operations for posts, and a responsive design for reading and writing anywhere.
 
 ---
 
-## Features
+## 🚀 Live Demo
 
-- User registration and login (with hashed passwords using **bcrypt**)
-- Guest login
-- JWT authentication with cookies
-- Session management and flash messages for success/error alerts
-- Create, edit, delete posts
-- Search posts by title or body content
-- Responsive design with a search bar and interactive UI
-- Dashboard accessible only for logged-in users
+👉 [View Live App](https://blog-3rab.onrender.com/)
 
 ---
 
-## Technologies Used
+## ✨ Features
 
-- **Node.js** - JavaScript runtime
-- **Express** - Web framework for Node.js
-- **EJS** - Template engine for rendering views
-- **MongoDB** - Database for storing users and posts
-- **Mongoose** - ODM for MongoDB
-- **bcrypt** - Password hashing
-- **jsonwebtoken** - JWT authentication
-- **connect-flash** - Flash messages for success/error notifications
-- **express-session** & **connect-mongo** - Session management
-- **method-override** - Support for PUT/DELETE HTTP verbs
-- **express-ejs-layouts** - Layout management for EJS
-- **cookie-parser** - Parse cookies
+- 🔐 **User authentication** with JWT and bcrypt.
+- ✍️ **Create, edit, delete, and search** blog posts.
+- 👤 **Guest login** support.
+- ⚡ **Session & flash messages** for alerts.
+- 📱 **Responsive UI** with EJS templates.
+- 🧭 **Dashboard** for logged-in users.
+
+---
+
+## 🧰 Tech Stack
+
+| Category          | Technology              |
+| ----------------- | ----------------------- |
+| **Backend**       | Node.js + Express       |
+| **Views**         | EJS                     |
+| **Database**      | MongoDB + Mongoose      |
+| **Auth**          | JWT + bcrypt            |
+| **Testing**       | Jest                    |
+| **Session**       | express-session + connect-mongo |
+| **Middleware**    | method-override, flash   |
+| **Deployment**    | Render.com              |
+
+---
+
