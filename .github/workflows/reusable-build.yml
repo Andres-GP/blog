@@ -15,9 +15,11 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v4
+      - name: Set up Node
+        uses: actions/setup-node@v4
         with:
           node-version: ${{ inputs['node-version'] }}
           cache: "npm"
@@ -28,7 +30,7 @@ jobs:
       - name: Run ESLint
         run: npm run lint
 
-      - name: Build project
-        run: npm run build
+      - name: Skip build (not required for Express)
+        run: echo "No build step required"
         env:
           MONGODB_URI: ${{ secrets.MONGODB_URI }}
