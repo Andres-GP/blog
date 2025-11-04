@@ -34,10 +34,10 @@ jobs:
         continue-on-error: true
 
       - name: Deploy to Render (Prod)
-        uses: render-examples/render-deploy-action@v1
+        uses: johnbeynon/render-deploy-action@v0.0.8
         with:
-          api-key: ${{ secrets.RENDER_API_KEY }}
           service-id: ${{ secrets.RENDER_SERVICE_ID }}
+          api-key: ${{ secrets.RENDER_API_KEY }}
 
       - name: Notify Discord
         if: success()
