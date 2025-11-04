@@ -39,9 +39,10 @@ document.addEventListener("DOMContentLoaded", function () {
       flash.style.transform = "translateY(-10px)";
       setTimeout(() => flash.remove(), 300);
     }, 4000);
-  });
 
-  flash.addEventListener("click", () => {
-    flash.style.animation = "slideOut 0.3s forwards";
+    flash.addEventListener("click", () => {
+      flash.style.animation = "slideOut 0.3s forwards";
+      setTimeout(() => flash.remove(), 300);
+    });
   });
 });
